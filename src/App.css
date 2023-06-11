@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+body {
+  background-color: cornsilk;
+}
+h1 {
+  color: brown;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  width: 25vw;
+  height: 5vh;
+  border: none;
+  padding: 10px;
+}
+li {
+  height: 5vh;
+  border: none;
+  padding: 10px;
+  margin: 10px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.btn {
+  background-color: brown;
+  border: none;
+  color: white;
+  width: 7vw;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+i {
+  padding: 0 10px;
+}
+.icons-div {
+  display: flex;
+  justify-content: space-around;
+}
+.form-group {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.input-div {
+  display: flex;
+}
+.header,
+.list {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+::marker {
+  content: none;
+}
+.list-card {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.icon-btn {
+  background-color: transparent;
+  border: none;
+}
+.checked {
+  text-decoration: line-through;
 }
 
-.App-link {
-  color: #61dafb;
+.deleted {
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.unchecked {
+  text-decoration: none;
 }
